@@ -53,12 +53,15 @@ Snapshot of the **data cleaning and transformation** steps in Power Query, inclu
 Visualization of the **Star Schema** data model with fact and dimension tables, ensuring optimized reporting and relationships.
 
 ### 3. Visualization & Measures (DAX)
-- Developed key measures in **DAX** to drive insights:  
-  - `Total Revenue = SUM(Sales[Revenue])`  
-  - `Total COGS = SUM(Sales[COGS])`  
-  - `Gross Profit = [Total Revenue] - [Total COGS]`  
-  - `GP Margin = DIVIDE([Gross Profit], [Total Revenue])`  
-  - `Return Rate = DIVIDE(Returns[Qty Returned], Sales[Qty Sold])`  
+- Developed key measures in **DAX** to drive insights:
+
+- `G MarginPYTD = CALCULATE([Total GM], DATESYTD(SAMEPERIODLASTYEAR('Calendar Table'[Date])))`  
+- ```DAX
+  Growth Format = 
+      VAR _variance = [Growth]
+      Return
+          Format(_variance,"#%") & " " & IF(_variance > 0, "▲", "▼")
+ 
 - Key visuals included:  
   - **Overall Sales Performance** – Revenue, Profit, Margins, Return rates  
   - **Regional Performance** – Sales by City & Country (Kenya, Uganda, Tanzania)  
