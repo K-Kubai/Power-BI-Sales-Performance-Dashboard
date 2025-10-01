@@ -67,3 +67,10 @@ Visualization of the **Star Schema** data model with fact and dimension tables, 
   - **Trend Analysis** – Monthly/Seasonal trends in revenue and volume
 [Sales Dashboard Final.pdf](https://github.com/user-attachments/files/22632081/Sales.Dashboard.Final.pdf)
 
+### 📈 Key Insights & Recommendations
+- **Expand Geographically** – Strong traction in Kenya (Nairobi, Mombasa, Eldoret, Nakuru) and early momentum in Uganda (Kampala, Gulu) and Tanzania (Arusha, Dodoma) highlight opportunities for deeper market penetration.  
+- **Sustain Profitability through Cost Discipline** – Gross profit grew by 52% (KES 3.97M) due to cost management. Continued margin protection will be crucial for scaling.  
+- **Leverage Customer Concentration** – Top 10 customers contributed ~KES 9.3M revenue. Building stronger key-account relationships will enhance retention and loyalty.  
+- **Diversify Beyond Fish Products** – Fish remains 70% of volume, but diversifying into high-margin categories (like dairy meal, drought pellet, maxi meal) will mitigate dependency risk and stabilize growth.  
+
+✅ This project demonstrates applied skills in **Business Intelligence (BI)**, **Data Analytics**, and **Visualization**, designed as a portfolio-ready case study.
