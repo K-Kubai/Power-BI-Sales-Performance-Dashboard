@@ -50,6 +50,7 @@ Snapshot of the **data cleaning and transformation** steps in Power Query, inclu
 - **Dimension Tables**: Calendar, Products, Customers, Territory, Returns  
 - Established **1-to-many relationships** between fact & dimensions for optimized reporting  
 <img width="850" height="335" alt="Data Modeling" src="https://github.com/user-attachments/assets/072a129c-2049-467f-9238-9dfff374e0f8" />
+
 Visualization of the **Star Schema** data model with fact and dimension tables, ensuring optimized reporting and relationships.
 
 ### 3. Visualization & Measures (DAX)
